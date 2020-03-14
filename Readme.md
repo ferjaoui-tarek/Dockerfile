@@ -9,8 +9,9 @@ Step 1 : Create a file named Dockerfile (without extension)
 # touch DockerFile
 ```
 
-```
+
 Some block in Dockerfile
+
 * [.dockerignore](https://docs.docker.com/engine/reference/builder/#dockerignore-file)
 * [FROM](https://docs.docker.com/engine/reference/builder/#from) Sets the Base Image for subsequent instructions.
 * [MAINTAINER (deprecated - use LABEL instead)](https://docs.docker.com/engine/reference/builder/#maintainer-deprecated) Set the Author field of the generated images.
@@ -30,7 +31,7 @@ Some block in Dockerfile
 * [LABEL](https://docs.docker.com/config/labels-custom-metadata/) apply key/value metadata to your images, containers, or daemons.
 * [SHELL](https://docs.docker.com/engine/reference/builder/#shell) override default shell is used by docker to run commands.
 * [HEALTHCHECK](https://docs.docker.com/engine/reference/builder/#healthcheck) tells docker how to test a container to check that it is still working.
-```
+
 
 Example Dockerfile
 FYI ```FROM``` instructions support variables that are declared by any ```ARG``` instructions that occur before the first ```FROM```
