@@ -34,6 +34,7 @@ Some block in Dockerfile
 
 
 Example Dockerfile
+
 FYI ```FROM``` instructions support variables that are declared by any ```ARG``` instructions that occur before the first ```FROM```
 
 Step 2 : Add instructions in Dockerfile
